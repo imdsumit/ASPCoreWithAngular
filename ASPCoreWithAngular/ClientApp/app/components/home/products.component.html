@@ -1,0 +1,13 @@
+﻿<h1>Products</h1>
+<table class="table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Product Name</th>
+            <th>Product Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr product *ngFor="let p of products" [product]="p"></tr>
+    </tbody>
+</table>
